@@ -1,0 +1,8 @@
+This program is a calculator that performs the four basic arithmetic operations: addition, subtraction, multiplication, and division.
+The program will first prompt the user to input a number 1-4 which will represent which operation will occur. If the user inputs the
+number 5, the program will end. Otherwise, the program will then prompt the user to input two numbers then the result will be computed 
+with the operation chosen. This procedure will keep looping until the user exits the program by inputting the number 5.
+
+By writing, this program I have displayed various skills I have learned. I utilized the Eclipse IDE which helped me write my program 
+as well as used Git for version control. Furthermore, I was able to prove my comprehension of various Core Java concepts: Variables, 
+data types, operators, type casting, control statements, class, objects, access specifiers, and core keywords like final, this, and static.
