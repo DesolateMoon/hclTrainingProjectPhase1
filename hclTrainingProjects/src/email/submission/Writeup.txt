@@ -1,0 +1,8 @@
+This program validates an email id by searching for a string entered by a user from an array of email ids (string). The program will 
+verify that the email id is valid by comparing it to a REGEX expression. The valid characters allowed are A-Z, a-z, 0-9, _, -, and 
+periods. The program will then prompt the user for what email id to search for and will tell the user whether or not the email id
+has been verified. The program keeps prompting the user until a valid email is inputted. Otherwise, the program will exit. 
+
+By writing, this program I have displayed various skills I have learned. I utilized the Eclipse IDE which helped me write my program 
+as well as used Git for version control. Furthermore, I was able to prove my comprehension of various Core Java concepts: Methods, 
+collections, and strings. 
