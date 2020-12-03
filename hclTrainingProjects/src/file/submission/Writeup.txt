@@ -1,0 +1,11 @@
+This program reads, writes, and appends an Employee objects in two different implementations. The first implementation 
+utilizes FileI/OStream and ObjectI/OStream whereas the second implementation utilizes BufferedReader. The first implementation
+will use the employee object declared at the top of the file. We begin by declaring a new FileOutputStream and ObjectOutputStream 
+and pass in the desired output file name. For the input we do the reverse, by declaring a new FileInputStream and ObjectInputStream 
+and pass in the desired input file name. Then for the second implementation the employee object's information will be passed in 
+through the command line or otherwise known as args[]. The second implementation uses BufferedReader which will grab the necessary
+information to create the employee object.
+
+By writing, this program I have displayed various skills I have learned. I utilized the Eclipse IDE which helped me write my program 
+as well as used Git for version control. Furthermore, I was able to prove my comprehension of various Core Java concepts: I/O, and
+exception handling concepts such as throws.
