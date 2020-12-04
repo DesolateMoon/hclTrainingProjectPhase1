@@ -1,0 +1,11 @@
+This program finds the longest increasing subsequence from a list of n random numbers where n < 100. The number n will be randomly
+generated utilizing the 'Random' package as well as the numbers in the list. The problem at hand to find the longest increasing 
+subsequence has various approaches such as a naive solution, sliding window, or even a binary search. I decided to implement
+a binary search as it gives us the best runtime of O(nlogn). This is the most efficient solution as it implements the sliding window
+method while subdividing the problem even smaller. The for loop gives a run time of O(N) but a binary search happens inside with a run
+time of O(logN) which gives us the expected runtime of O(nlogn). 
+
+By writing, this program I have displayed various skills I have learned. I utilized the Eclipse IDE which helped me write my program 
+as well as used Git for version control. Furthermore, I was able to prove my comprehension of various Core Java concepts: variables,
+data types, operators, type casting, control statements, class, objects, access specifiers, the Random library, as well as, core keywords
+words like final, this, and static.
