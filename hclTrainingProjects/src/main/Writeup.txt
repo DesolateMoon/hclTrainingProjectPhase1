@@ -1,0 +1,18 @@
+For this project, we have to fix the bugs in the application using the appropriate algorithmic techniques. I first began by 
+inspecting the boilerplate code. As the write up said, there was indeed missing source code to the application for the
+search and sort methods. The implementation for both methods were relatively straight foward. I began working on the 
+searchExpenses method. I knew that we had to take in a user input so I began by declaring a Scanner object. Since the Arraylist
+contains a list of Integers, I knew I had to read in an int. To finally implement the seasrch function, the ArrayList inherits a 
+contains function so I was able to use that to decide whether or not the user input was found. I then began my implementation on 
+the sortExpenses method. I was able to use the Collections.sort() function to do the heavy lifting. I then printed the sorted array
+to the console. After implementing these two methods, I noticed that the for loop wasn't really serving a purpose. This can also 
+seen by utilizing the debugger tool. I decided to remove the for loop and the if statement for a do-while loop. This makes the most
+sense as the user can break out of the program by inputting the number 6. I then noticed that optionsSelection() kept getting added
+to the RTS. This was due to a recursive call in all the switch cases which I then deleted. I then got an infinite loop which was solved 
+by moving the requesting user input after every loop iteration. After all of these components come together hand in hand, I was able to
+successfully implement and debug the project.
+
+By fixing this program I have displayed various skills I have learned. I utilized the Eclipse IDE which helped me write and 
+debug my program as well as used Git for version control. Furthermore, I was able to prove my comprehension of various Core Java concepts: 
+variables, data types, operators, type casting, control statements, class, objects, access specifiers, the Collection library, as well as, 
+core keywords words like static.
